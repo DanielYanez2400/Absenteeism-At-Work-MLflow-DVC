@@ -1,1 +1,25 @@
-key: val
+COLUMNS:
+  ID: int64
+  Reason for absence: int64
+  Month of absence: int64
+  Day of the week: int64
+  Seasons: int64
+  Transportation expense: int64
+  Distance from Residence to Work: int64
+  Service time: int64
+  Age: int64
+  Work load Average/day: float64
+  Hit target: int64
+  Disciplinary failure: int64
+  Education: int64
+  Son: int64
+  Social drinker: int64
+  Social smoker: int64
+  Pet: int64
+  Weight: int64
+  Height: int64
+  Body mass index: int64
+  Absenteeism time in hours: int64
+
+TARGET_COLUMN:
+  Absenteeism time in hours: int64

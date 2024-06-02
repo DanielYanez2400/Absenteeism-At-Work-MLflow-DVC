@@ -6,3 +6,9 @@ data_ingestion:
   source_URL: 'https://drive.google.com/file/d/1nmEut2M0LY83nHwDv0Jkq0WUoQOqX-s9/view?usp=sharing'
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/Absenteeism_at_work.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
