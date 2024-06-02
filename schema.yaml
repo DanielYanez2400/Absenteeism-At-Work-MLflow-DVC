@@ -22,4 +22,4 @@ COLUMNS:
   Absenteeism time in hours: int64
 
 TARGET_COLUMN:
-  Absenteeism time in hours: int64
+  target_column: Absenteeism time in hours
